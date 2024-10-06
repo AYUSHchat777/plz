@@ -1,0 +1,100 @@
+body{
+    background-image: linear-gradient(307deg,black,red);
+    display: block;
+}
+.h{color: white;
+    font-size: 126px;
+   
+    text-align: center;}
+.he{color: white;    font-size: 126px;
+   
+    text-align: center;}
+.hea{color: white;    font-size: 126px;
+    
+    text-align: center;}
+.menu{
+    display: flex;
+}
+.click{color: white;    font-size: 126px;
+   
+    text-align: center;
+margin-top: -80px;}
+    .tuy{
+        color: white;
+    }
+    .tuy:hover{
+        color: cyan;}
+        .container{
+           
+            height: 410px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin-top: -167px;
+        }
+        .box{
+            height: 30px;
+            width: 30px;
+            border-radius: 30px;
+            position: relative;
+            margin-left: 10px;
+        }
+        .box1{
+            background-color: pink;
+            animation: first 4s infinite ;
+        }
+        .box2{
+            background-color: yellow;
+            animation: sec   4s infinite;
+        }
+        .box3{
+            background-color: white;
+            animation: th 4s infinite;
+        }
+        .box4{
+            background-color: blue;
+            animation: fo 4s infinite ;
+        }
+        @keyframes first {
+            0%{
+                bottom: 0px;
+            }
+            12.5%{
+                bottom: 50px;
+            }
+            25%{
+                bottom: 0;
+            }
+        }
+        @keyframes sec {
+            25%{
+                bottom: 0px;
+            }
+            37.5%{
+                bottom: 50px;
+            }
+            50%{
+                bottom: 0;
+            }
+        }
+        @keyframes th {
+            50%{
+                bottom: 0px;
+            }
+            62.5%{
+                bottom: 50px;
+            }
+            75%{
+                bottom: 0;
+            }
+        }
+        @keyframes fo {
+            75%{
+                bottom: 0px;
+            }
+            87.5%{
+                bottom: 50px;
+            }
+            100%{
+                bottom: 0;
+            }}
